@@ -97,7 +97,6 @@ button.submit {
    line-height: 1;
    color: black;
    border: none;
-   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
    background-color: crimson;
    /*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
    background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);*/
