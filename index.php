@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>Formulario de Inscripcion</title>
 	<link rel="stylesheet" media="screen" href="estilos/styles.css" >
-    <link rel="javascript" href="js/angular.min.js">
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk
 /html5.js"></script>
@@ -80,5 +79,6 @@
         </li>
     </ul>
 </form>
+    <link rel="javascript" href="js/angular.min.js">
 </body>
 </html>
