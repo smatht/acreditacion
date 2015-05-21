@@ -16,8 +16,12 @@
              <h2>Formulario de Inscripción</h2>
         </li>
         <li>
-            <label for="name">Apellido y Nombre:</label>
+            <label for="name">Nombre:</label>
             <input type="text"  placeholder="Nombre" required />
+        </li>
+        <li>
+            <label for="name">Apellido</label>
+            <input type="text"  placeholder="Apellido" required />
         </li>
         <li>
             <label for="payment">Forma de Pago:</label>
