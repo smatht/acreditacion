@@ -1,0 +1,124 @@
+<! DOCTIPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="stylessss.css"> 
+    <link rel="stylesheet" type="text/css" href="stylezxcvxs.css"> 
+    <title></title>
+  </head>
+  <body>
+   <!--Título-->
+   <h1>Crear pestañas solamente con CSS</h1>
+   <!--Contenedor-->
+   <div id="container">
+    <!--Pestaña 1 activa por defecto-->
+    <input id="tab-1" type="radio" name="tab-group" checked="checked" />
+    <label for="tab-1">Inscripcion</label>
+    <!--Pestaña 2 inactiva por defecto-->
+    <input id="tab-2" type="radio" name="tab-group" />
+    <label for="tab-2">Acreditacion</label>
+    <!--Pestaña 3 inactiva por defecto-->
+    <input id="tab-3" type="radio" name="tab-group" />
+    <label for="tab-3">Certificados</label>
+    <!--Pestaña 4 inactiva por defecto-->
+    <input id="tab-4" type="radio" name="tab-group" />
+    <label for="tab-4">Informes</label>
+    <!--Contenido a mostrar/ocultar-->
+    <div id="content">
+     <!--Contenido de la Pestaña 1-->
+     <div id="content-1">
+      <form class="contact_form" action="#" method="post">
+    <ul>
+        <li>
+             <h2>Formulario de Inscripción</h2>
+        </li>
+        <li>
+            <label for="name">Apellido y Nombre:</label>
+            <input type="text"  placeholder="Nombre" required />
+        </li>
+        <li>
+            <label for="payment">Forma de Pago:</label>
+            <select id="myList">
+               <option value="1">Pago en Evento</option>
+               <option value="2">Depósito Bancario</option>
+               <option value="3">Transferencia Bancaria</option>
+             </select>
+        </li>
+        <li>
+            <label for="type">Tipo de Inscripción:</label>
+                <select id="listaInscripcion">
+                   <option value="4"> Asistentes docentes nivel medio/terciario
+                   <option value="5"> Asistentes docentes UNNE
+                   <option value="6"> Asistentes en General
+                   <option value="7"> Asistentes estudiantes universitarios y/o terciarios
+                   <option value="8"> Autores miembros de Universidades de la RedUNCI
+                   <option value="9"> Otros autores
+                </select>
+        </li>
+        <li>
+            <label for="email">Correo de Contacto:</label>
+            <input type="email" name="email" placeholder="email@ejemplo.com" required />
+        </li>
+        <li>
+             <h3>Datos de facturación</h3>
+        </li>
+        <li>
+            <label for="dni">CUIT/CUIL/DNI:</label>
+            <input type="text" name="dni" placeholder=""/>
+        </li>
+        <li>
+            <label for="nombreInst">Apellido y Nombre / Institución:</label>
+            <input type="text" name="nombreInst" placeholder=""/>
+        </li>
+        <li>
+            <label for="localidad">Localidad:</label>
+            <input type="text" name="localidad" placeholder=""/>
+        </li>
+        <li>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" name="domicilio" placeholder=""/>
+        </li>
+        <li>
+            <label for="tel">Teléfono:</label>
+            <input type="text" name="tel" placeholder=""/>
+        </li>
+        <li>
+            <label for="iva">Condición de IVA:</label>
+            <input type="text" name="iva" placeholder=""/>
+        </li>
+        
+        <li>
+          <button class="submit" type="submit">Enviar</button>
+        </li>
+    </ul>
+</form>
+
+     </div>
+     <!--Contenido de la Pestaña 2-->
+     <div id="content-2">
+      <p class="column-left"><img src="http://ximg.es/200x150" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, est, nisi enim voluptates dicta quibusdam recusandae eveniet provident non at nostrum nesciunt laudantium omnis aliquam debitis magni expedita cumque tempore.</p>
+      <p class="column-right"><img src="http://ximg.es/200x150" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, molestiae, officia repellendus quasi cumque dolor eius deserunt possimus aliquid neque nam assumenda veniam soluta enim commodi aperiam reprehenderit quia incidunt.</p>
+     </div>
+     <!--Contenido de la Pestaña 3-->
+     <div id="content-3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, aperiam, enim odit placeat minus ab vero molestiae ad fugit maiores eaque saepe debitis assumenda ut ipsam eius sit repellendus dolore.</p>
+      <ul>
+       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, in magni illo dolore dicta vero.</li>
+       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, minus, aspernatur voluptatem doloribus labore modi.</li>
+       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, exercitationem quia id accusamus beatae sunt? Dolorum mollitia sint debitis delectus.</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, accusantium, provident ab quo sed blanditiis perspiciatis distinctio aut voluptatibus cum odio quaerat iure vel dolorum fugit explicabo suscipit tenetur. Sed!</p>
+     </div>
+     <div id="content-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, aperiam, enim odit placeat minus ab vero molestiae ad fugit maiores eaque saepe debitis assumenda ut ipsam eius sit repellendus dolore.</p>
+      <ul>
+       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, in magni illo dolore dicta vero.</li>
+       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, minus, aspernatur voluptatem doloribus labore modi.</li>
+       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, exercitationem quia id accusamus beatae sunt? Dolorum mollitia sint debitis delectus.</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, accusantium, provident ab quo sed blanditiis perspiciatis distinctio aut voluptatibus cum odio quaerat iure vel dolorum fugit explicabo suscipit tenetur. Sed!</p>
+     </div>
+    </div>
+   </div>
+  </body>
+</html>
